@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+            width: 100%;
+            margin: 16px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Pizza Order Form
+            </legend>
+            <label>Name:
+                <input type="text" name="username" placeholder="Please enter your name" />
+            </label>
+            <label>Delivery or Pick-up?
+                <input type="radio" name="acquire-pizza" value="Delivery"> Delivery <input type="radio"
+                    name="acquire-pizza" value="Pick-up"> Pick-up
+            </label>
+            <label> Address for Delivery:
+                <input type="street" class="form-control" id="autocomplete" placeholder="Street">
+
+                <input type="city" class="form-control" id="inputCity" placeholder="City">
+
+                <input type="state" class="form-control" id="inputState" placeholder="State">
+
+                <input type="zip" class="form-control" id="inputZip" placeholder="Zip">
+
+                <input type="county" class="form-control" id="inputCounty" placeholder="County">
+
+                <input type="country" class="form-control" id="inputCountry" placeholder="Country">
+            </label>
+            <label>Crust:
+                <select name="crust">
+                    <option value="original">Original Crust</option>
+                    <option value="thin">Thin Crust</option>
+                    <option value="deep-dish">Deep Dish</option>
+                    <option value="no-crust">No Crust, yes you this correctly.</option>
+                </select></label>
+            <label>Cheese:
+                <select name="cheese">
+                    <option value="mozzarella">Mozzarella</option>
+                    <option value="4-cheese">Four Cheese Blend</option>
+                    <option value="dairy-free-cheese">Dairy-Free Cheese</option>
+                    <option value="no-cheese">No Cheese</option>
+                </select></label>
+            <label>Sauce:
+                <select name="sauce">
+                    <option value="original-sauce">Original</option>
+                    <option value="white-garlic-sauce">White Garlic Sauce</option>
+                    <option value="alfredo-sauce">Alfredo Sauce</option>
+                    <option value="no-sauce">No Sauce</option>
+                </select></label>
+            <label>Protein Toppings:
+                <input type="checkbox" id="toppings" value="pepperoni"> Pepperoni
+                <input type="checkbox" id="toppings" value="sausage"> Sausage
+                <input type="checkbox" id="toppings" value="chicken">
+                Chicken
+                <input type="checkbox" id="toppings" value="Anchovies"> Anchovies
+                <input type="checkbox" id="toppings" value="veggie-meat"> Beyond Meat Crumbled "Beef"
+                <input type="checkbox" id="toppings" value="first-born"> The Flesh of Your First-Born
+            </label>
+            <label> Veggie Toppings:
+                <input type="checkbox" id="veggie-toppings" value="onions"> Onions
+                <input type="checkbox" id="veggie-toppings" value="banana-peppers"> Banana Peppers
+                <input type="checkbox" id="veggie-toppings" value="spinach"> Spinach
+                <input type="checkbox" id="veggie-toppings" value="mushrooms"> Mushrooms
+                <input type="checkbox" id="veggie-toppings" value="olives"> Olives
+                <input type="checkbox" id="veggie-toppings" value="green-olives"> Green Olives
+                <input type="checkbox" id="veggie-toppings" value="e-coli"> E.Coli
+            </label>
+
+            <label>Additional Directions:
+                <textarea rows="5" cols="50" name="additional-info">
+Enter any additional information
+                </textarea>
+            </label>
+            <input type="submit">
+    </form>
+    <button type="submit">Register</button>
+    </fieldset>
+    </form>
+</body>
+
+</html>

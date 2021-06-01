@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+            width: 100%;
+            margin: 16px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                User Registration
+            </legend>
+            <label>Name:
+                <input type="text" name="username" placeholder="Please enter your name" />
+            </label>
+            <label>Gender:
+                <input type="radio" name="gender" value="Male"> Male <input type="radio" name="gender" value="Female"> Female <input type="radio" name="gender" value="Non-binary"> Non-binary <input type="radio" 
+                name="gender" value="Other"> Other
+            </label>
+            <label>Years Coding:
+                <select name="experience">
+                <option value="value1">6 months or less</option>
+                <option value="value2">About 1 year</option>
+                <option value="value3">2-3 years</option>
+                <option value="value4">4+ years</option>
+            </select></label>
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
